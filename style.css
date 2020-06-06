@@ -1,0 +1,155 @@
+.navbar{
+    background-color:cadetblue !important;
+} 
+.fa-shopping-cart,.fa-user-circle{
+        font-size: 30px !important;
+}
+
+.card1,.card2{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color:cadetblue;
+    box-shadow: 2px 4px 5px yellowgreen;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fa-credit-card-alt,.fa-truck{
+    font-size: 30px !important;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:600px){
+    .card1,.card2{
+        width: 100%;
+    }
+}
+.currentProducts {
+    margin-top: 50px;  
+    text-transform: uppercase; 
+    font-weight: bold;
+
+}
+
+.card{
+    width:250px ;
+    height: auto;
+    margin-bottom: 5px;
+}
+.card-text,.card-title{
+    font-weight: bold;
+    text-align: center;
+    
+}
+.btn-primary{
+    width: 100%;
+    background-color:cadetblue !important ;
+    
+}
+.card-body{
+    width:250px ;
+    height: 200px;
+}
+.heading{
+    text-align: center;
+    color:cadetblue !important;
+   font-weight: bold;
+   margin: 30px;
+    
+}
+.heading > h1{
+    text-shadow: 3px 3px 4px blue;
+}
+
+.footer {
+
+    width: 100% !important ;
+    background-color:blue;
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+ }
+
+form {
+    background-color:  black;
+    color: blue ;
+ }
+.btn-primary:hover{
+    color: blueviolet !important;
+    background-color: springgreen !important;
+
+}
+.card-body:hover{
+    color: rgb(30, 210, 45) !important;
+}
+.center{
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 500px;
+    margin-top: 20px;
+    
+}
+.fa-facebook,.fa-twitter,.fa-google,.fa-linkedin,.fa-instagram{
+    font-size: 40px !important;
+    padding: 20px;
+    color: blue;
+
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .nav-link:hover{
+      color: green !important;
+      font-weight: bold !important;
+  }
+.dropdown-menu:hover{
+   background-color:  rgb(149, 149, 161);
+
+
+  }
+  .dropdown-item:hover{
+      background-color: blue !important;
+  }
+  /* .para{
+      background-color: greenyellow !important;
+      text-align: center;
+      color: grey; */
+  /* }
+  .about{
+      text-align: center;
+      background-color: darkorchid;
+  } */
+  /* .about:hover{
+      color: greenyellow;
+  } */
